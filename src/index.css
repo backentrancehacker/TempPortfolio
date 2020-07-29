@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Asap", sans-serif;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+body {
+	max-width: 50em;
+	margin: 0 auto;
+	padding: 1em;
+	color: #555;
+}
+h1 {
+	font-family: "Patua One", sans-serif;
+	color: #000;
+	font-size: 36px;
+}
+p {
+	font-size: 24px;
+}
+a {
+	font-size: inherit;
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	background: linear-gradient( to bottom, dodgerblue 0%, dodgerblue 100% );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+	transition: background-size 0.2s;
+}
+a:hover {
+	background-size: 4px 50px;
+}
